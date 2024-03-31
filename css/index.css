@@ -1,0 +1,399 @@
+body{
+    background: #000000;
+    
+}
+.teste{
+    padding-left: 150px;
+    
+}
+.container-fluid {
+    justify-content: space-around;
+    
+}
+.col{
+    justify-content: space-around;
+    width: 350px;
+}
+.buton-list{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+/* color text */
+.color-dark{
+    background-color: black;
+}
+.color-white{
+    color: aliceblue;
+    border-color: #fff;
+}
+
+.bak-youtube-color{
+    background: #000000;
+    color: #ffffff;
+    border-color: #000000;
+}
+
+.card-ytb{
+    width: 90%;
+    height: 70%;
+    padding-top: 10px;
+}
+.card-title{
+    font-size: 16px;
+}
+.card-text-ytb{
+    padding-bottom: 10px;
+}
+/* botton camada 1 */
+
+.sprtro1{
+    width: 140px;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.sprtro2{ 
+    margin: auto;
+    width: 230px;
+    height: 50px;
+    border-radius: 20px;
+}
+.input100 {
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+  
+    display: block;
+    width: 100%;
+    height: 45px;
+    background: transparent;
+    padding: 0 5px 0 38px;
+  }
+  .po-img{
+    border-radius: 20px;
+}
+.navbar{
+    padding-right: 30px;
+}
+
+.login-form-logo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .dropdown-menu{
+    --bs-dropdown-link-hover-bg: #000000;
+  }
+  
+  .rou2{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.rou1{
+    width: 100%;
+    padding: 300px  250px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-rou2{
+    width: 100%;
+    height: 75%;
+    border-radius: 20px;
+}
+
+.colun{
+    width: 200px;
+}
+.global{
+    display: flex;
+    justify-content: space-around;
+}
+.mobile-on{
+    display: none;
+}
+.container-1 {
+    position: relative;
+    box-sizing: border-box;
+    width: fit-content;
+  }
+  
+  .mainbox {
+    box-sizing: border-box;
+    position: relative;
+    width: 230px;
+    height: 50px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    border-radius: 160px;
+    background-color: rgb(0, 0, 0);
+    transition: all 0.3s ease;
+  }
+  
+  .color-change-2x {
+	-webkit-animation: color-change-2x 2s linear infinite alternate both;
+	        animation: color-change-2x 2s linear infinite alternate both;
+}
+  .checkbox:focus {
+    border: none;
+    outline: none;
+  }
+  
+  .checkbox:checked {
+    right: 10px;
+  }
+  
+  .checkbox:checked ~ .mainbox {
+    width: 50px;
+  }
+  
+  .checkbox:checked ~ .mainbox .search_input {
+    width: 0;
+    height: 0px;
+  }
+  
+  .checkbox:checked ~ .mainbox .iconContainer {
+    padding-right: 8px;
+  }
+  
+  .checkbox {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 17px;
+    top: 10px;
+    z-index: 9;
+    cursor: pointer;
+    appearance: none;
+  }
+  
+  .search_input {
+    box-sizing: border-box;
+    height: 100%;
+    width: 170px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    font-size: 1em;
+    color: white;
+    transition: all 0.3s ease;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .search_input::placeholder {
+    color: rgba(255, 255, 255, 0.776);
+  }
+  
+  .iconContainer {
+    box-sizing: border-box;
+    padding-top: 5px;
+    width: fit-content;
+    transition: all 0.3s ease;
+  }
+  
+  .search_icon {
+    box-sizing: border-box;
+    fill: white;
+    font-size: 1.3em;
+  }
+@media all and (max-width:1280px) {
+    .teste{
+        padding-left: 30px;
+        
+    }
+    .global{
+        display: flex;
+        justify-content: space-around;
+    }
+    .sprtro1{
+        width: 125px;
+        font-size: 10px;
+        border-radius: 20px;
+        padding-left: 20px;
+    }
+
+    .col{
+        justify-content: space-around;
+        width: 300px;
+    }
+}
+
+@media all and (max-width:600px){
+
+    
+    .someee{
+        display: none;
+    }
+    .search-online{
+        display: none;
+    }
+    .teste{
+        padding-left:15%;
+        padding-right: 15%;
+    }
+    .mobile-on{
+        color: #fff;
+        display: flex;
+    }
+    .btn-outline-secondary{
+        padding-left: 20px;
+        padding-right: 20px;
+        border-color: transparent;
+
+    }
+    .btn-outline-secondary:hover{
+        border-color: transparent;
+        background-color: transparent;
+        color:rgb(255, 255, 255) ;
+    }
+    .login-form-logo{
+        margin-top: 10px;
+        width: 40px;
+        height: 40px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .form-mobile {
+        --input-text-color: #fff;
+        --input-bg-color: #283542;
+        --focus-input-bg-color: transparent;
+        --text-color: #949faa;
+        --active-color: #1b9bee;
+        --width-of-input: 200px;
+        --inline-padding-of-input: 1.2em;
+        --gap: 0.9rem;
+      }
+      /* form-mobile style */
+      .form-mobile {
+        
+        font-size: 0.9rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        width: var(--width-of-input);
+        position: relative;
+        isolation: isolate;
+      }
+      /* a fancy bg for showing background and border when focus. */
+      .fancy-bg-mobile {
+        
+        position: absolute;
+        
+        width: 100%;
+        inset: 0;
+        background: var(--input-bg-color);
+        border-radius: 30px;
+        height: 100%;
+        z-index: -1;
+        pointer-events: none;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+      }
+      /* label styling */
+      .label {
+        
+        width: 100%;
+        padding: 0.8em;
+        height: 40px;
+        padding-inline: var(--inline-padding-of-input);
+        display: flex;
+        align-items: center;
+      }
+      
+      .search-mobile,.close-btn-mobile {
+        position: absolute;
+        
+      }
+      /* styling search-mobile-icon */
+      .search-mobile {
+        
+        fill: var(--text-color);
+        left: var(--inline-padding-of-input);
+      }
+      /* svg -- size */
+      .svg-mobile {
+        width: 17px;
+        display: block;
+        
+      }
+      /* styling of close button */
+      .close-btn-mobile {
+        border: none;
+        right: var(--inline-padding-of-input);
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        padding: 0.1em;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: var(--active-color);
+        opacity: 0;
+        visibility: hidden;
+      }
+      /* styling of input */
+      .input-mobile {
+        color: var(--input-text-color);
+        width: 100%;
+        margin-inline: min(2em,calc(var(--inline-padding-of-input) + var(--gap)));
+        background: none;
+        border: none;
+      }
+      
+      .input-mobile:focus {
+        outline: none;
+      }
+      
+      .input-mobile::placeholder {
+        color: var(--text-color)
+      }
+      /* input background change in focus */
+      .input-mobile:focus ~ .fancy-bg-mobile {
+        border: 1px solid var(--active-color);
+        background: var(--focus-input-bg-color);
+      }
+      /* search-mobile icon color change in focus */
+      .input-mobile:focus ~ .search-mobile {
+        fill: var(--active-color);
+      }
+      /* showing close button when typing */
+      .input-mobile:valid ~ .close-btn-mobile {
+        opacity: 1;
+        visibility: visible;
+      }
+      /* this is for the default background in input,when selecting autofill options -- you can remove this code if you do not want to override the browser style.  */
+      .input-mobile:-webkit-autofill,
+      .input-mobile:-webkit-autofill:hover,
+      .input-mobile:-webkit-autofill:focus,
+      .input-mobile:-webkit-autofill:active {
+        -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
+        -webkit-transition-delay: 9999s;
+      }
+      .card{
+        padding-left: 33%;
+        background-color: #000000;
+      }
+      
+}
+@media all and (max-width:350px){
+    .po-img1{
+        margin-left: -20px;
+       width: 100px;
+    }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">	
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	
+	<div class="limiter">
+		<!--imagem de fundo-->
+		<div class="container-login">
+			<div class="wrap-login ">
+				<form class="login-form validate-form">
+					<img class="login-form-logo" src="images/img/WhatsApp Image 2024-02-09 at 18.26.49.jpeg" alt="" srcset="">
+
+					<span class="login-form-title p-b-34 p-t-27">
+						Login
+					</span>
+
+					<div class="wrap-input100 validate-input" data-validate = "Enter username">
+						<svg class="iconan" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+							<path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+						  </svg>
+						<input class="input100" type="text" name="usuario" placeholder="Usuario" id="usuario" required>
+						
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Enter password">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-lock-fill" viewBox="0 0 16 16">
+							<path d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2m3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2"/>
+						  </svg>
+						<input class="input100" type="password" name="senha" placeholder="Senha" id="senha" required>
+						
+					</div>
+
+					<div class="container-login-form-btn">
+						<form>
+						<input class="login-form-btn" type="submit" onclick="logar(); return false">
+						<a class="login-form-btn" href="index2.htm">Cadastro</a>
+					</form>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+
+	
+	<script src="js/login.js"></script>
+</body>
+
+</html>
